@@ -1,7 +1,7 @@
 baseurl: '/'
 permalink: pretty
 title: 'Film SF Alliance'
-image: "assets/img/logo.svg"
+image: "assets/img/logo-shapes.svg"
 
 logo:
   mobile: "assets/img/logo-shapes.svg"

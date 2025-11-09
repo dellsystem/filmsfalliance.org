@@ -1,6 +1,7 @@
 baseurl: '/'
 permalink: pretty
 title: 'Film SF Alliance'
+image: "assets/img/logo.svg"
 
 logo:
   mobile: "assets/img/logo-shapes.svg"
@@ -10,27 +11,6 @@ logo:
   desktop_height: "30px"
   desktop_width: "150px"
 
-home: 
-  limit_services: 6
-
 collections:
-  services:
-    output: true
-    sort_by: weight
   team:
     output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
-
-sass:
-  style: compressed # possible values: nested expanded compact compressed

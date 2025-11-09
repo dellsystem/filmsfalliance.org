@@ -13,4 +13,4 @@ logo:
 
 collections:
   team:
-    output: true
+    output: false

@@ -1,7 +1,7 @@
 ---
 title: "George Rush"
 image: "assets/img/team/unknown.png"
-linkedinurl: ""
+imdburl: "https://www.imdb.com/name/nm1391438/"
 weight: 4
 board: false
 ---

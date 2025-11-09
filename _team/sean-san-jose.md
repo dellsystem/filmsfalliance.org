@@ -1,7 +1,7 @@
 ---
 title: "Sean San Jose"
 image: "assets/img/team/unknown.png"
-linkedinurl: ""
+imdburl: "https://www.imdb.com/name/nm0085772/"
 weight: 7
 board: false
 ---

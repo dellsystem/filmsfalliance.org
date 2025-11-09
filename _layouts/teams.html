@@ -31,6 +31,13 @@ bodyClass: "page-teams"
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                     {% endif %}
+                    {% if team.imdburl %}
+                    <!-- hate this and hate myself lol -->
+                    {% if team.linkedinurl %}
+                    /
+                    {% endif %}
+                    <a target="_blank" href="{{ team.imdburl }}" rel="noreferrer">IMDB</a>
+                    {% endif %}
                 </div>
                 <div class="team-content">{{ team.content }}</div>
             </div>
@@ -51,6 +58,13 @@ bodyClass: "page-teams"
                     {% if team.jobtitle %}<p class="team-description">{{ team.jobtitle }}</p>{% endif %}
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+                    {% endif %}
+                    {% if team.imdburl %}
+                    <!-- hate this and hate myself lol -->
+                    {% if team.linkedinurl %}
+                    /
+                    {% endif %}
+                    <a target="_blank" href="{{ team.imdburl }}" rel="noreferrer">IMDB</a>
                     {% endif %}
                 </div>
                 <div class="team-content">{{ team.content }}</div>

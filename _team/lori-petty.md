@@ -1,7 +1,7 @@
 ---
 title: "Lori Petty"
 image: "assets/img/team/unknown.png"
-linkedinurl: ""
+imdburl: "https://www.imdb.com/name/nm0001614/"
 weight: 14
 board: false
 ---

@@ -2,6 +2,9 @@ main:
   - name: "About"
     url: "/about/"
     weight: 2
+  - name: "Donate"
+    url: "/donate/"
+    weight: 3
   - name: "Team"
     url: "/team/"
-    weight: 3
+    weight: 4
